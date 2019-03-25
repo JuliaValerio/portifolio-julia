@@ -1,0 +1,67 @@
+/*ANATOMIA DO CSS*/
+
+p {
+    font-size: 20px;
+}
+
+body {
+    background-color: rgba(179, 130, 186, 30%);
+    font-family: 'Montserrat', sans-serif;
+    
+
+}
+
+.cabecalho {
+    text-align: center;
+
+}
+
+.cabecalho__titulo{
+    color: #5d1277;
+    font-weight: bold;
+}
+
+.cabecalho__subtitulo {
+    font-size: 20px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 900px;
+    margin-top: 50px;
+
+}
+
+.container__ilustracao, .container__conteudo {
+    display: inline-block;
+    width: 400px;
+    vertical-align: middle;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.ilustracao__gif {
+    width: 100%;
+}
+
+.conteudo__btn--roxo{
+    color: #ffffff;
+    background-color: #5d1277;
+    padding: 20px;
+    border: 2px solid #5d1277;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.conteudo__btn--transparente {
+    color: #5d1277;
+    background-color: rgba(179, 130, 186, 30%);
+    padding: 20px;
+    border: 2px solid #5d1277;; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}

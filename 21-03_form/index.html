@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Fomulario - Turma 7</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+</head>
+
+<body>
+    <form action="#" method="GET" class="formulario">
+        <div class="texto">
+            <label for="texto">Texto</label>
+            <input class="tamanho" name="texto" type="text">
+        </div>
+
+        <div class="senha">
+            <label for="senha">Senha</label>
+            <input class="tamanho" name="senha" type="password">
+        </div>
+
+        <div class="talentos">
+            <label class="label__talentos" for="talentos">Confirme aqui que você é uma mulher cheia de talentos</label>
+            <input name="confirmo-talentos" type="checkbox"><span>Confirme que sou mesmo!</span>
+
+        </div>
+
+        <div class="super">
+            <label>Escolha uma opção</label>
+            <div class="poder"> 
+                <input name="poder" type="radio"><span>Super força</span>
+                <input name="poder" type="radio"><span>Ser invisível</span>
+                <input name="poder" type="radio"><span>Ler mentes</span>
+                <input name="poder" type="radio"><span>Super velocidade</span>
+            </div>
+        </div>
+
+        <div class="topicos">
+            <label>Selecione um Tópico</label>
+            <select class="tamanho">
+                <option value="bonito">Deixar meu site mais bonito</option>
+                <option value="patriarcado">Acabar com o patriarcado</option>
+                <option value="feminista">Fazer uma revolução feminista</option>
+            </select>
+        </div>
+
+        <div class="valor">
+            <label>Escolha um valor</label>
+            <input class="tamanho" name="valor" type="tel">
+        </div>
+
+        <div class="comentario">
+            <label>Comentario</label>
+            <textarea class="tamanho" name="comentario" rows="10" cols="25"></textarea>
+        </div>
+
+        <div class="grupo-campo">
+            <div></div>
+            <div class="botoes">
+            <input class="btn--submit" type="submit" name="enviar">
+            <input type="reset" name="apagar">
+        </div>
+        </div>
+    </form>
+</body>
+
+</html>

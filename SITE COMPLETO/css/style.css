@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+
+nav {
+    position: fixed;
+    top 0;
+    width: 100;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cabecalho {
+    background-image: url('../img/bg-banner.png');
+    background-position: right;
+    background-size: cover;
+    min-height: 80vh;
+    padding-top: 120px;
+}
+
+ul {
+    
+    width: 50%;
+}
+
+li {
+    display: inline-block;
+    font-weight: bold;
+    color: white;
+}
+
