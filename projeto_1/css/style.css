@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navegacao {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    box-shadow: 0.5px 0.15px 0.5px 0.8px gray;
+}
+
+.navegacao__menu {
+    list-style: none;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.navegacao__menu li {
+    color: rgba(119, 23, 209, 0.815);
+    display: inline-flex;
+    margin: 0 0px                                                                                                                                               0 10px;
+}
+
+.menu__link {
+    color: rgba(119, 23, 209, 0.815);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navegacao__logo{
+    width: 230px;
+}
+
+
+.conteudo__container {
+    margin: 0 auto;
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.conteudo__foto {
+    height: 150px;
+    border-radius: 100%;
+   
+}
+
+.conteudo__nome {
+    font-weight: bold;
+    
+}
+
+.conteudo__autora {
+    width: 200px;
+}
+
+.conteudo__artigo {
+    width: 500px;
+    
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a9a9a981;
+    position: fixed;
+    width: 100vw;
+    bottom: 0;
+}
+
+.rodape__foto{
+    width: 150px;
+    margin: 0 20px;
+    
+}
+
+
+
+
+
+
