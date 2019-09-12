@@ -11,7 +11,7 @@ html{
     min-height: 100vh;
   }
   header nav {
-    background-color: #111111;
+    background-color: rgb(167, 153, 153);
     box-shadow: 1px 1px 10px #111111;
   }
   header .nav-link:hover {
