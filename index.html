@@ -1,127 +1,294 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Julia Valério</title>
-    <link rel="shortcut icon" type="image/png" href="https://www.reprograma.com.br/assets/img/favicon.ico"/>
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
-    <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet"> 
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="img/icon.jpg" type="image/icon" sizes="16x16">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Julia Valerio| Front-End Dev </title>
 </head>
+
 <body>
 
-    <div id="tudo">
-        <header>
-                <img src="imagem/logo-reprograma.png">
-        </header>
-
-<!--Menu de Navegação -->
-
-        <nav id="menu">
-                <a href="#boasvindas">Home</a> |
-                <a href="#sobre">Sobre</a> |
-                <a href="#sobre">Hobbies</a> 
-                
-        </nav>
-
-
-
-        <section id="boasvindas"> 
-
-<!--Retrato escolhido-->
-                <img src="imagem/retrato13.jpg">
-
-<!--Seu nome -->                
-                <h1>Julia Valério</h1>
-
-<!--Suas Redes Sociais -->
-
-
-        <ul class="icones-sociais">
-            <li>
-                <a href="https://www.facebook.com/profile.php?id=100015246462711" class="facebook">
-                    Facebook
-                </a>
-            </li>
-            <li>
-                    <a href="https://www.instagram.com/araraverde_/?hl=pt-br" class="instagram">
-                        Instagram
-                    </a>
-                </li>
-            <li>
-                <a href="https://github.com/JuliaValerio" class="github">
-                    Github
-                </a>
-            </li>
-            <li>
-                <a href="https://twitter.com/" class="email">
-                    Twitter
-                </a>
-            </li>
-            <li>
-                <a href="https://www.linkedin.com/in/julia-valério-331195101/" class="linkedin">
-                    LinkedIn
-                </a>
-            </li>
-        </ul>
-   
-
-               
-            </section>
-        
-
-       <section id="sobre"> 
-           <h2>SOBRE</h2>
-            <p>Estudante de Análises de Sistemas, no IFSP Campus Guarulhos. Nascida em 1997 na cidade de São Paulo no Bairro da Liberdade. </p>
-            <p>Futura Desenvolvedora Front-end formada pela {reprograma}, apaixonada por Tecnologia e inovações, amante da natureza.</p>
-        </section>
-
-        <section id="hobbies"> 
-                <h2>Meus Hobbies</h2>
-                 <p>O que gosto de fazer</p>
-        <div class="icones">
-                 <ul class="hobbies">
-                        <li>
-                            <img src="imagem/png/Reading.png">
-                            <p>Ler</p>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="span-nav navbar-toggler-icon "></span>
+                </button>
+                <div class="navbar-collapse collapse hide justify-content-center" id="navbarSupportedContent">
+                    <ul class="header-navbar-list navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link text-white" href="#sobre">Sobre</a>
                         </li>
-                        <li>
-                            <img src="imagem/png/Camping.png">
-                            <p>Acampar</p>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#portfolio">Portfólio</a>
                         </li>
-                        <li>
-                            <img src="imagem/png/Cooking.png">
-                            <p>Cozinhar</p>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#contato">Contato</a>
                         </li>
-                        <li>
-                            <img src="imagem/png/Video Gaming.png">
-                            <p>Jogos</p>
-                        </li>
-                        <li>
-                            <img src="imagem/png/Watching Movies.png">
-                            <p>Netflix</p>
-                        </li>
-                        <li>
-                            <img src="imagem/png/Tattoo.png">
-                            <p>Tatuagem</p>
-                        </li>
-                        <li>
-                            <img src="imagem/png/Skateboarding.png">
-                            <p>Skateboarding</p>
-                        
-                        </li>
-                        <li>
-                            <img src="imagem/png/Karaoke.png">
-                            <p>Karaoke</p>
-                        </li>
-                        
                     </ul>
                 </div>
-             </section>
-        <footer>
-                <p>&copy;2019 - Julia Valério - Reprograma</p>
-        </footer>
-    </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row row-size justify-content-center">
+                <h1 class="display-4 text-right text-autora col-lg-5 align-self-center">Hi!<br>I'm <span
+                        class="text-white"><a href="#contato">Julia</a></span><br>Front-End
+                    web developer</h1>
+                <img class="col-lg-2 align-self-center logo-img " src="img/logo.jpg"
+                    alt=" logo do javascript, html e css">
+            </div>
+        </div>
+    </header>
+
+    <section id="sobre" class='sobre-hidden py-5'>
+        <div class="container ">
+            <div class="row py-5">
+                <img src="img/IMG_2364.JPG" class="avatar">
+                <div class="col-lg-6">
+
+                    <h2 class="titulo-sobre text-monospace align-bottom">Sobre mim</h2>
+                    <p class="text-sobre text-monospace">Sou apaixonada por programação. Estudo Front-End por conta
+                        própria desde
+                        Julho de 2018. Em março de 2019 entrei na {Reprograma} onde pude aprofundar, aprimorar e
+                        adquirir novos
+                        conhecimentos. Sou entusiasta de Javascript, busco sempre praticar e aprender novas tecnologias
+                        sem
+                        esquecer das bases.</p>
+                </div>
+                <div class="col">
+                    <h6 class="titulo-sobre text-monospace">Skills</h6>
+
+                    <div class="progress">
+                        <div class="progress-bar  " role="progressbar" style="width: 45%" aria-valuenow="25"
+                            aria-valuemin="0" aria-valuemax="100">UX / UI
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar  " role="progressbar" style="width: 45%" aria-valuenow="25"
+                            aria-valuemin="0" aria-valuemax="100">SCRUM
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar  " role="progressbar" style=" width: 35% " aria-valuenow="25"
+                            aria-valuemin="0" aria-valuemax="100">WordPress
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar " role="progressbar" style="width: 60%" aria-valuenow="70"
+                            aria-valuemin="0" aria-valuemax="100">Webpack
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar " role="progressbar" style="width: 80%" aria-valuenow="75"
+                            aria-valuemin="0" aria-valuemax="100">Git
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar " role="progressbar" style="width: 75%" aria-valuenow="85"
+                            aria-valuemin="0" aria-valuemax="100">Sass
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar " role="progressbar" style="width: 55%" aria-valuenow="85"
+                            aria-valuemin="0" aria-valuemax="100">React
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar " role="progressbar" style="width: 80%" aria-valuenow="100"
+                            aria-valuemin="0" aria-valuemax="100">Bootstrap
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar " role="progressbar" style="width: 70%" aria-valuenow="100"
+                            aria-valuemin="0" aria-valuemax="100">JavaScript
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar " role="progressbar" style="width: 100%" aria-valuenow="100"
+                            aria-valuemin="0" aria-valuemax="100">CSS
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar " role="progressbar" style="width: 100%" aria-valuenow="100"
+                            aria-valuemin="0" aria-valuemax="100">HTML
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portifolio portifolio p-6 bg-light">
+        <div class="text-center">
+            <br />
+            <h1 class="titulo_servicos">Portifolio</h1>
+            <br />
+            <br />
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="card border-0 mb-3">
+                            <div class="card">
+                                <img class="card-img-top img__portifolio" src="./img/projeto_figma.png"
+                                    alt="Card image cap">
+                                <div class="card-body">
+                                    <p class="card-text">Prototipo criado na sala de aula do Reprograma, com os
+                                        conceitos de UX/UI.</p>
+                                    <a href="https://www.figma.com/proto/YVdz44lMe3pZONAj2ph6Nl2A/APP-SUS?node-id=1%3A2&scaling=scale-down"
+                                        class="btn btn-warning">Ver Projeto</a>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="card border-0 mb-3">
+                            <div class="card">
+                                <img class="card-img-top img__portifolio" src="./img/canal.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        <br />No projeto com clientes reais do curso {reprograma}, onde tive a
+                                        oportunidade de desenvolver o front end do Canal Bloom.</p>
+                                    <a href="https://canal-bloom.netlify.com/" class="btn btn-warning">Site</a>
+                                    <a href="https://github.com/JuliaValerio/CanalBloom.github.io"
+                                        class="btn btn-warning">Repositorio</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm">
+                        <div class="card border-0 mb-1">
+                            <div class="card">
+                                <img class="card-img-top img__portifolio" src="./img/to-do-list.png"
+                                    alt="Card image cap">
+                                <div class="card-body">
+                                    <p class="card-text">Projeto To-do-list criado com Vanilla JS</p>
+                                    <a href="https://to-do-list-julia.netlify.com/" class="btn btn-warning">Site</a>
+                                    <a href="https://github.com/JuliaValerio/project_ToDoList"
+                                        class="btn btn-warning">Repositorio</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm">
+                                <div class="card border-0 mb-3">
+                                    <div class="card">
+                                        <img class="card-img-top img__portifolio" src="img/operaçao.png"
+                                            alt="Card image cap">
+                                        <div class="card-body">
+                                            <p class="card-text">Projeto Operação vagalumes foi idealizado para divulgar o trabalho social dos Doutores da alegria em guarulhos.</p>
+                                            <a href="https://operacao-vagalumes.netlify.com" class="btn btn-warning">Site</a>
+                                            <a href="https://github.com/JuliaValerio/projeto_operacaoVagalume"
+                                                class="btn btn-warning">Repositorio</a>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm">
+                                <div class="card border-0 mb-3">
+                                    <div class="card">
+                                        <img class="card-img-top img__portifolio" src="./img/gelado.png"
+                                            alt="Card image cap">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                <br />Projeto criado com layout resposivo</p>
+                                            <a href="https://um-mundo-gelado.netlify.com/" class="btn btn-warning">Site</a>
+                                            <a href="https://github.com/JuliaValerio/API-GitHub-test.git"
+                                                class="btn btn-warning">Repositorio</a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm">
+                                <div class="card border-0 mb-1">
+                                    <div class="card">
+                                        <img class="card-img-top img__portifolio" src="./img/gruppe.png"
+                                            alt="Card image cap">
+                                        <div class="card-body">
+                                            <p class="card-text">Projeto desenvolvido no curso {reprograma}</p>
+                                            <a href="https://viagens-gruppee.netlify.com/"
+                                                class="btn btn-warning">Site</a>
+                                            <a href="https://github.com/JuliaValerio/viagens_gruppe"
+                                                class="btn btn-warning">Repositorio</a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    </section>
+
+    <!-- <section class="contato p-5">
+        <div class="text-center">
+            <h1 class="titulo_servicos">Contato</h1>
+            <div class="container">
+                <form>
+                    <div class="row">
+                        <div class="col p-3">
+                            <input type="text" class="form-control text__contato m-4" placeholder="Nome *">
+                            <input type="text" class="form-control text__contato m-4" placeholder="Sobrenome *">
+                            <input type="text" class="form-control text__contato m-4" placeholder="E-mail *">
+                        </div>
+                        <div class="col p-4">
+                            <label for="exampleFormControlTextarea1" class="text__contato">Comentario</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"
+                                placeholder="Digite aqui a sua mensagem"></textarea>
+                        </div>
+
+                    </div>
+                    <div class="text-center m-4 p-3">
+                        <button type="button" class="btn btn-warning">Enviar</button>
+                    </div>
+                </form>
+
+            </div>
+    </section> -->
+
+    <footer class="p-2">
+        <div class="mx-auto">
+            <p class="text-warning">Copyright © Julia Valério 2019</p>
+        </div>
+        <div class="mx-auto">
+            <a href="https://www.facebook.com/profile.php?id=100015246462711"><img src="./img/facebook.png"
+                    alt="icon facebook" class="m-2" width="50px" heigth="50px">
+            </a>
+            <a href="https://www.instagram.com/araraverde_/"><img src="./img/instagram.png" alt="icon instagram"
+                    class="m-2" width="50px" heigth="50px">
+            </a>
+            <a href="https://github.com/JuliaValerio"><img src="./img/github.png" alt="icon github" class="m-2"
+                    width="50px" heigth="50px">
+            </a>
+            <a href="https://www.linkedin.com/in/julia-val%C3%A9rio-331195101/"><img src="./img/linkedin.png"
+                    alt="icon linkedin" class="m-2" width="50px" heigth="50px">
+            </a>
+        </div>
+
+    </footer>
+
+    <button id="arrowTop" hidden><i class="fas fa-arrow-up"></i></button>
+
+
+    <script src="assets/bootstrap.min.js"></script>
+    <script src='assets/jquery.slim.min.js'></script>
+    <script src="assets/index.js"></script>
+
 </body>
+
 </html>
