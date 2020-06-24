@@ -14,7 +14,39 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar">
+            <!-- Inicio da tag Nav responsive-->
+            <div class="nav-mobile" id="menuToggle">
+                <input type="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul class="burguer-menu-list">
+                    <a href="#">
+                        <li class="list-item">Sobre</li>
+                    </a>
+                    <a href="#portifolio">
+                        <li class="list-item">Portifolio</li>
+                    </a>
+                    <a href="#contato">
+                        <li class="list-item">Contato</li>
+                    </a>
+                </ul>
+            </div>
+            <!-- fim da tag Nav responsive-->
+            <ul class="menu-list">
+                <a href="#sobre">
+                    <li class="list-item">Sobre</li>
+                </a>
+                <a href="#portifolio">
+                    <li class="list-item">Portifolio</li>
+                </a>
+                <a href="#contato">
+                    <li class="list-item">Contato</li>
+                </a>
+            </ul>
+        </nav>
+        <!-- <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container">
                 <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="span-nav navbar-toggler-icon "></span>
@@ -25,7 +57,7 @@
                             <a class="nav-link text-white" href="#sobre">Sobre</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#portfolio">Portfólio</a>
+                            <a class="nav-link text-white" href="#portifolio">Portfólio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-white" href="#contato">Contato</a>
@@ -33,7 +65,7 @@
                     </ul>
                 </div>
             </div>
-        </nav>
+        </nav> -->
         <div class="container">
             <div class="row row-size justify-content-center">
                 <h1 class="display-4 text-right text-autora col-lg-5 align-self-center">Hi!<br>I'm <span
@@ -48,7 +80,7 @@
     <section class='sobre-hidden py-5'>
         <div class="container ">
             <div class="row py-5">
-                <div class="col-lg-6">
+                <div id="sobre" class="col-lg-6">
                     <h2 class="titulo-sobre text-monospace align-bottom">Sobre mim</h2>
                     <p class="text-sobre text-monospace">
                         Sou apaixonada por programação. Estudo Front-End por conta própria desde
@@ -125,7 +157,7 @@
     <section class="portifolio portifolio p-6 bg-light">
         <div class="text-center">
             <br />
-            <h1 id="#portifolio" class="titulo_servicos">Portifolio</h1>
+            <h1 id="portifolio" class="text-monospace text-center">Portifolio</h1>
             <br />
             <br />
             <div class="container">
@@ -231,59 +263,57 @@
                                 </div>
                             </div>
     </section>
-
-    <!-- <section class="contato p-5">
-        <div class="text-center">
-            <h1 class="titulo_servicos">Contato</h1>
-            <div class="container">
-                <form>
-                    <div class="row">
-                        <div class="col p-3">
-                            <input type="text" class="form-control text__contato m-4" placeholder="Nome *">
-                            <input type="text" class="form-control text__contato m-4" placeholder="Sobrenome *">
-                            <input type="text" class="form-control text__contato m-4" placeholder="E-mail *">
-                        </div>
-                        <div class="col p-4">
-                            <label for="exampleFormControlTextarea1" class="text__contato">Comentario</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"
-                                placeholder="Digite aqui a sua mensagem"></textarea>
-                        </div>
-
-                    </div>
-                    <div class="text-center m-4 p-3">
-                        <button type="button" class="btn btn-warning">Enviar</button>
-                    </div>
-                </form>
-
+    <!-- <section id="contato" class="contato">
+        <div class="container">
+          <div class="title-contato">
+            <h2 class="text-monospace text-center">Contato</h2>
+            <p class="text-monospace text-center">Chega mais, vamos conversar.</p>
+          </div>
+          <form class="form-contato" name="contato" netlify="" novalidate="novalidate">
+            <div class="form-group">
+              <label class="text-monospace" for="exampleFormControlInput1">Seu e-mail:</label>
+              <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="pessoabacana@example.com">
             </div>
-    </section> -->
-
-    <footer class="p-2">
-        <div class="mx-auto">
-            <p class="text-warning">Copyright © Julia Valério 2019</p>
+            <div class="form-group">
+              <label class="text-monospace" for="exampleFormControlInput2">Seu telefone: </label>
+              <input type="tel" name="tel" class="form-control" id="exampleFormControlInput2" placeholder="(11)999999999">
+            </div>
+            <div class="form-group">
+              <label class="text-monospace" for="exampleFormControlTextarea3">Escreve aqui sua mensagem: </label>
+              <textarea class="form-control" id="exampleFormControlTextarea3" rows="3" name="text"></textarea>
+            </div>
+            <button type="submit" class="button btn btn-sm btn-warning">Enviar</button>
+          </form>
         </div>
-        <div class="mx-auto">
-            <a href="https://www.facebook.com/profile.php?id=100015246462711"><img src="./img/facebook.png"
-                    alt="icon facebook" class="m-2" width="50px" heigth="50px">
-            </a>
-            <a href="https://www.instagram.com/araraverde_/"><img src="./img/instagram.png" alt="icon instagram"
-                    class="m-2" width="50px" heigth="50px">
-            </a>
-            <a href="https://github.com/JuliaValerio"><img src="./img/github.png" alt="icon github" class="m-2"
-                    width="50px" heigth="50px">
-            </a>
-            <a href="https://www.linkedin.com/in/julia-val%C3%A9rio-331195101/"><img src="./img/linkedin.png"
-                    alt="icon linkedin" class="m-2" width="50px" heigth="50px">
-            </a>
-        </div>
+      </section> -->
 
+    <footer id="contato" class="p-2">
+        <div class="mx-auto">
+            <div class="text-center mx-auto">
+                <p class="text-warning text-monospace">Entre em contato através das redes sociais :)</p>
+            </div>
+            <div class="mx-auto m-2 text-center">
+                <a href="https://www.facebook.com/profile.php?id=100015246462711"><img src="./img/facebook.png"
+                        alt="icon facebook" class="m-2" width="50px" heigth="50px">
+                </a>
+                <a href="https://www.instagram.com/araraverde_/"><img src="./img/instagram.png" alt="icon instagram"
+                        class="m-2" width="50px" heigth="50px">
+                </a>
+                <a href="https://github.com/JuliaValerio"><img src="./img/github.png" alt="icon github" class="m-2"
+                        width="50px" heigth="50px">
+                </a>
+                <a href="https://www.linkedin.com/in/julia-val%C3%A9rio-331195101/"><img src="./img/linkedin.png"
+                        alt="icon linkedin" class="m-2" width="50px" heigth="50px">
+                </a>
+            </div>
+        </div>
     </footer>
 
     <button id="arrowTop" hidden><i class="fas fa-arrow-up"></i></button>
 
-
-    <script src="assets/bootstrap.min.js"></script>
     <script src='assets/jquery.slim.min.js'></script>
+    <script src='assets/jquery.validate.js'></script>
+    <script src='assets/bootstrap.min.js'></script>
     <script src="assets/index.js"></script>
 
 </body>
