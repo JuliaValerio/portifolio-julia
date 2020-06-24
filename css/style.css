@@ -53,9 +53,6 @@ html{
    .progress{
      margin: 10px;
    }
-   #sobre {
-     min-height: 90vh;
-   }
   .portfolio .col {
     padding: 0;
     background: black;
@@ -164,8 +161,8 @@ html{
   .avatar{
       border-radius: 50%;
       border: solid 1px rgb(50, 48, 51);
-      width: 130px;
-      height: 135px;
+      width: 194px;
+      height: 200px;
       margin:25px;
   }
    .sobre-show {
