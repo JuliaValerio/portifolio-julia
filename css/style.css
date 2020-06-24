@@ -119,8 +119,8 @@ html{
     display: flex !important;
     align-items: center !important;
     margin-top: 150px;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#87378fbe), to(#eb4daf9f));
-    background-image: linear-gradient(#87378fbe, #eb4daf9f);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#87378fbe), to(#eb4dafcb));
+    background-image: linear-gradient(#87378fbe, #eb4daf);
   }
   
   footer img {
