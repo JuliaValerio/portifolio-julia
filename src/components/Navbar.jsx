@@ -8,6 +8,7 @@ import {
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Logo from '../assets/logo.png'
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false)
@@ -15,16 +16,38 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 shadow-xl'>
       <div>
-        <img src={Logo} alt='logo' style={{width: '90px'}}/>
+        <Link to='home' smooth={true} duration={500}>
+          <img src={Logo} alt='logo' style={{width: '90px'}}/>
+        </Link>
       </div>
 
       {/* Menu */}
       <ul className='hidden md:flex'>
-        <li className='transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-zinc-50 duration-300'>Home</li>
-        <li className='transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-zinc-50 duration-300'>Sobre</li>
-        <li className='transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-zinc-50 duration-300'>Skills</li>
-        <li className='transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-zinc-50 duration-300'>Projetos</li>
-        <li className='transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-zinc-50 duration-300'>Contato</li>
+        <li className='transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-zinc-50 duration-300'>          
+          <Link to='home' smooth={true} duration={500}>
+            Home
+          </Link>
+        </li>
+        <li className='transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-zinc-50 duration-300'>
+          <Link to='about' smooth={true} duration={500}>
+            Sobre
+          </Link>
+        </li>
+        <li className='transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-zinc-50 duration-300'>
+          <Link to='skills' smooth={true} duration={500}>
+            Skills
+          </Link>
+        </li>
+        <li className='transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-zinc-50 duration-300'>
+          <Link to='work' smooth={true} duration={500}>
+            Projetos
+          </Link>
+        </li>
+        <li className='transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-zinc-50 duration-300'>
+          <Link to='contact' smooth={true} duration={500}>
+            Contato
+          </Link>
+        </li>
       </ul>
 
       {/* Hamburguer */}
@@ -34,11 +57,31 @@ const Navbar = () => {
 
       {/* Menu Mobile */}
       <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen flex flex-col justify-center items-center bg-[#0a192f] text-gray-300 shadow-xl'}> 
-          <li className='py-6 text-4xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-zinc-50 duration-300'>Home</li>
-          <li className='py-6 text-4xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-zinc-50 duration-300'>Sobre</li>
-          <li className='py-6 text-4xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-zinc-50 duration-300'>Skills</li>
-          <li className='py-6 text-4xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-zinc-50 duration-300'>Projetos</li>
-          <li className='py-6 text-4xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-zinc-50 duration-300'>Contato</li>        
+          <li className='py-6 text-4xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-zinc-50 duration-300'>
+            <Link onClick = {() => setNav(!nav)} to='home' smooth={true} duration={500}>
+              Home
+            </Link>
+          </li>
+          <li className='py-6 text-4xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-zinc-50 duration-300'>
+            <Link onClick = {() => setNav(!nav)} to='about' smooth={true} duration={500}>
+              Sobre
+            </Link>
+          </li>
+          <li className='py-6 text-4xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-zinc-50 duration-300'>
+          <Link onClick = {() => setNav(!nav)} to='skills' smooth={true} duration={500}>
+            Skills
+          </Link>
+          </li>
+          <li className='py-6 text-4xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-zinc-50 duration-300'>
+            <Link onClick = {() => setNav(!nav)} to='work' smooth={true} duration={500}>
+              Projetos
+            </Link>
+          </li>
+          <li className='py-6 text-4xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-zinc-50 duration-300'>
+            <Link onClick = {() => setNav(!nav)} to='contact' smooth={true} duration={500}>
+              Contato
+            </Link>
+          </li>        
       </ul>
 
       {/* Social Icons */}

@@ -22,7 +22,7 @@ const Home = () => {
           cada passo dado traz uma alegria muito grande.
         </p>
         <div>
-          <button className="group text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-[#cb54de] hover:border-[#cb54de]">
+          <button to='work' smooth={true} duration={500} className="group text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-[#cb54de] hover:border-[#cb54de]">
             Portifolio
             <span className="group-hover:rotate-90 duration-300 ">
               <HiArrowCircleRight size={25} className="ml-3 group-hover:right-1 group-hover:-top-2 group-hover:relative" />
