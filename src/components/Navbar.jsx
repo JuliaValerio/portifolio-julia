@@ -60,7 +60,7 @@ const Navbar = () => {
               Github <FaGithub size={30} />
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#f15e5e]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
               href='/'
@@ -68,12 +68,13 @@ const Navbar = () => {
               Email <HiOutlineMail size={30} />
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#45b480]'>
             <a
-              className='flex justify-between items-center w-full text-gray-300'
+              className='text-sm flex justify-between items-center w-full text-gray-300'
               href='/'
+              style={{marginLeft: '1em'}}
             >
-              Download CV <BsFillPersonLinesFill size={30} />
+              Download Resume <BsFillPersonLinesFill size={30} />
             </a>
           </li>
         </ul>
