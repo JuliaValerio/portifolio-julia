@@ -1,5 +1,6 @@
 import React from "react";
 import { HiArrowCircleRight } from "react-icons/hi";
+import { Link } from 'react-scroll';
 
 const Home = () => {
   return (
@@ -21,13 +22,15 @@ const Home = () => {
           de UI / UX é uma experiência desafiadora porem gratificante, que a
           cada passo dado traz uma alegria muito grande.
         </p>
-        <div>
-          <button to='work' smooth={true} duration={500} className="group text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-[#cb54de] hover:border-[#cb54de]">
-            Portifolio
-            <span className="group-hover:rotate-90 duration-300 ">
-              <HiArrowCircleRight size={25} className="ml-3 group-hover:right-1 group-hover:-top-2 group-hover:relative" />
-            </span>
-          </button>
+        <div>            
+          <Link to='work' smooth={true} duration={500}>
+            <button to='work' smooth={true} duration={500} className="group text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-[#cb54de] hover:border-[#cb54de]">
+              Portifolio
+              <span className="group-hover:rotate-90 duration-300 ">
+                <HiArrowCircleRight size={25} className="ml-3 group-hover:right-1 group-hover:-top-2 group-hover:relative" />
+              </span>
+            </button>
+          </Link>
         </div>
       </div>
     </div>
