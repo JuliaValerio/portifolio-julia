@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div name="home" className="w-full h-screen bg-[#0a192f]">
       {/*Container*/}
-      <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full sm:top-5">
+      <div style={{paddingTop: "5em"}} className="max-w-[1000px] mx-auto flex flex-col justify-center h-full px-8 md:px-16">
         <p className="text-[#cb54de]">Oi, meu nome é</p>
         <h1 className="text-4xl sm:text-5xl font-bold text-[#ccd6f6]">
           Julia Valerio
