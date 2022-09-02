@@ -90,7 +90,9 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://www.linkedin.com/in/julia-val%C3%A9rio-331195101/'
+              target="_blank" 
+              rel="noopener noreferrer"
             >
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -98,7 +100,9 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://github.com/JuliaValerio'
+              target="_blank" 
+              rel="noopener noreferrer"
             >
               Github <FaGithub size={30} />
             </a>
@@ -107,6 +111,7 @@ const Navbar = () => {
             <a
               className='flex justify-between items-center w-full text-gray-300'
               href='/'
+              onClick={() => window.location = 'mailto:juliav286@gmail.com'}
             >
               Email <HiOutlineMail size={30} />
             </a>
@@ -114,7 +119,9 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#45b480]'>
             <a
               className='text-sm flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://drive.google.com/file/d/1pR3PBanbOvKT2K2BLfLW5VMOrveI1QN8/view?usp=sharing'
+              target="_blank" 
+              rel="noopener noreferrer"
               style={{marginLeft: '1em'}}
             >
               Download Resume <BsFillPersonLinesFill size={30} />
