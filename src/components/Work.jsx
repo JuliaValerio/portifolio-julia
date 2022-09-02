@@ -27,7 +27,7 @@ const Work = () => {
               <span className='text-2xl font-bold text-white tracking-wider'>
                 Em breve 
               </span>
-              <div className='pt-8 text-center'>
+              <div className='pt-8 text-center flex justify-center items-center'>
                 <a className='flex justify-center items-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-zinc-50 duration-300'  href='/'>
                   <button className='flex justify-center items-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     <FaRegPlayCircle style={{marginRight:'.75em'}} size={25} />
@@ -52,7 +52,7 @@ const Work = () => {
               <span className='text-2xl font-bold text-white tracking-wider'>
                 Em breve 
               </span>
-              <div className='pt-8 text-center'>
+              <div className='pt-8 text-center flex justify-center items-center'>
               <a className='flex justify-center items-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-zinc-50 duration-300'  href='/'>
                   <button className='flex justify-center items-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     <FaRegPlayCircle style={{marginRight:'.75em'}} size={25} />
@@ -78,7 +78,7 @@ const Work = () => {
               <span className='text-2xl font-bold text-white tracking-wider'>
                 Em breve 
               </span>
-              <div className='pt-8 text-center'>
+              <div className='pt-8 text-center flex justify-center items-center'>
                 <a className='flex justify-center items-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-zinc-50 duration-300'  href='/'>
                   <button className='flex justify-center items-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     <FaRegPlayCircle style={{marginRight:'.75em'}} size={25} />
@@ -103,7 +103,7 @@ const Work = () => {
               <span className='text-2xl font-bold text-white tracking-wider'>
                 Em breve 
               </span>
-              <div className='pt-8 text-center'>
+              <div className='pt-8 text-center flex justify-center items-center'>
                 <a className='flex justify-center items-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-zinc-50 duration-300'  href='/'>
                   <button className='flex justify-center items-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                      <FaRegPlayCircle style={{marginRight:'.75em'}} size={25} />
@@ -129,7 +129,7 @@ const Work = () => {
               <span className='text-2xl font-bold text-white tracking-wider'>
                 Em breve 
               </span>
-              <div className='pt-8 text-center'>
+              <div className='pt-8 text-center flex justify-center items-center'>
                 <a className='flex justify-center items-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-zinc-50 duration-300'  href='/'>
                   <button className='flex justify-center items-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                   <FaRegPlayCircle style={{marginRight:'.75em'}} size={25} />
@@ -154,7 +154,7 @@ const Work = () => {
               <span className='text-2xl font-bold text-white tracking-wider'>
                 Em breve 
               </span>
-              <div className='pt-8 text-center'>
+              <div className='pt-8 text-center flex justify-center items-center'>
                 <a className='flex justify-center items-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-zinc-50 duration-300'  href='/'>
                   <button className='flex justify-center items-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                   <FaRegPlayCircle style={{marginRight:'.75em'}} size={25} />
