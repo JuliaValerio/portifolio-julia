@@ -25,12 +25,9 @@ const About = () => {
               </p>
               <br/>
               <p>
-              Estou em busca de novas oportunidades para crescer como profissional e contribuir em projetos que realmente façam a diferença. Se você procura alguém apaixonado por tecnologia, que está disposto a aprender e se desenvolver constantemente.
+              Estou em busca de novas oportunidades para crescer como profissional e contribuir em projetos que realmente façam a diferença. Se você procura alguém apaixonado por tecnologia, que está disposto a aprender e se desenvolver constantemente,não hesite em entrar em contato comigo.
               </p>
               <br/>
-              <p>
-              não hesite em entrar em contato comigo.
-              </p>
               <div>            
                 <Link to='contact' smooth={true} duration={500}>
                   <button to='contact' smooth={true} duration={500} className="group text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-[#cb54de] hover:border-[#cb54de]">
