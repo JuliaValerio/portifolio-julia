@@ -119,7 +119,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#45b480]'>
             <a
               className='text-sm flex justify-between items-center w-full text-gray-300'
-              href='https://drive.google.com/file/d/1pR3PBanbOvKT2K2BLfLW5VMOrveI1QN8/view?usp=sharing'
+              href='https://drive.google.com/file/d/1BYYYAM0P9fc6Nh_o_KNaWpEqlY583qtu/view?usp=sharing'
               target="_blank" 
               rel="noopener noreferrer"
               style={{marginLeft: '1em'}}

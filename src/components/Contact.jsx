@@ -3,7 +3,7 @@ import { RiMailSendLine } from 'react-icons/ri';
 
 const Contact = () => {
   return (
-    <div name='contact' className='w-full h-screen bg-[#0a192f] flex justify-center items-center p-4'>
+    <div name='contact' className='w-full h-screen bg-[#0a192f] flex justify-center items-center p-4 mt-20'>
         <form method='POST' action="https://getform.io/f/18d01646-0902-4333-8a36-8c1d05c63681" className='flex flex-col max-w-[600px] w-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-[#cb54de] text-gray-300'>Contato</p>

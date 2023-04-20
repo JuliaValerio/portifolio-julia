@@ -12,15 +12,10 @@ const Home = () => {
           Julia Valerio
         </h1>
         <h2 className="text-4xl sm:text-5xl font-bold text-[#8892b0]">
-          Eu sou Desenvolvedora Front-End Jr.
+          Eu sou Software Developer Jr.
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[800px]">
-          Atualmente estou focada em aprender cada vez mais sobre frontend, que
-          até o momento é a área que mais me chamou a atenção "principalmente
-          pelo dinamismo", e apesar das dificuldades encontradas em entender os
-          diversos termos existentes nesse ecossistema, trabalhar com projetos
-          de UI / UX é uma experiência desafiadora porem gratificante, que a
-          cada passo dado traz uma alegria muito grande.
+          estou animada para ampliar meus conhecimentos em Java e trabalhar em projetos ainda mais complexos e inovadores. Sou comunicativa, paciente e adoro trabalhar em grupo, especialmente com pessoas diversas que valorizam o aprendizado e o espírito de equipe.<br/>
         </p>
         <div>            
           <Link to='work' smooth={true} duration={500}>
