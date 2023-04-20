@@ -25,7 +25,7 @@ const About = () => {
               </p>
               <br/>
               <p>
-              Estou em busca de novas oportunidades para crescer como profissional e contribuir em projetos que realmente façam a diferença. Se você procura alguém apaixonado por tecnologia, que está disposto a aprender e se desenvolver constantemente,não hesite em entrar em contato comigo.
+              Estou em busca de novas oportunidades para crescer como profissional e contribuir em projetos que realmente façam a diferença. Se você procura alguém apaixonado por tecnologia, que está disposto a aprender e se desenvolver constantemente, não hesite em entrar em contato comigo.
               </p>
               <br/>
               <div>            
