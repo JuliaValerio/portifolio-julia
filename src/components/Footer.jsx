@@ -28,7 +28,7 @@ const Footer = () => {
           </li>
           <li>
           <a
-              className='flex justify-between items-center w-full text-gray-300'
+              className='flex justify-between items-center w-full text-gray-300 transition ease-in-out delay-150 hover:-translate-y-1 duration-300'
               href='/'
               onClick={() => window.location = 'mailto:juliav286@gmail.com'}
             >
@@ -37,7 +37,7 @@ const Footer = () => {
           </li>
           <li>
           <a
-              className='flex justify-between items-center w-full text-gray-300'
+              className='flex justify-between items-center w-full text-gray-300 transition ease-in-out delay-150 hover:-translate-y-1 duration-300'
               href='https://github.com/JuliaValerio'
               target="_blank" 
               rel="noopener noreferrer"
@@ -47,7 +47,7 @@ const Footer = () => {
           </li>
           <li>
           <a
-              className='flex justify-between items-center w-full text-gray-300'
+              className='flex justify-between items-center w-full text-gray-300 transition ease-in-out delay-150 hover:-translate-y-1 duration-300'
               href='https://www.linkedin.com/in/julia-val%C3%A9rio-331195101/'
               target="_blank" 
               rel="noopener noreferrer"
@@ -58,7 +58,7 @@ const Footer = () => {
         </ul>
       </div>
       <hr className="my-8 border-white" />
-      <Link color="white" className="text-center font-normal text-gray-300">
+      <Link color="white" className="text-center font-normal text-gray-300 ">
         &copy; 2023 
       </Link>
     </footer>

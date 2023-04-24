@@ -15,9 +15,9 @@ import Tailwind from '../assets/tailwind.png';
 
 const Skills = () => {
   return (
-    <div name='skills' className='w-full h-screen bg-[#0a192f] text-gray-300'>
+    <div id='skills' name='skills' className='w-full h-screen bg-[#0a192f] text-gray-300'>
       {/* Container */}
-      <div className='max-w-[1000px] mx-auto p-4 mb-5flex flex-col justify-center w-full h-full'>
+      <div className='max-w-[1000px] mx-auto flex flex-col justify-center h-full px-8 md:px-16'>
           <div>
               <p className='text-4xl font-bold inline border-b-4 border-[#cb54de] '>Skills</p>
               <p className='py-4'>Estas são as tecnologias com as quais tenho contato.</p>
