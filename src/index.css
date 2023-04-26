@@ -43,7 +43,7 @@
 
 @media only screen and (max-width: 640px) {
     #skills {
-        margin: 1em 1em 0 0;
+        margin-top: 1.5em;
         display: inline-block;
     }
     #contact{ 
