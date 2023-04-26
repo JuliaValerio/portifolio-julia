@@ -43,11 +43,11 @@
 
 @media only screen and (max-width: 640px) {
     #about{
-        margin-bottom: 5em;
+        margin-bottom: 7em;
     }
     #skills {
         margin-top: 1.5em;
-        margin-bottom: 1.5em;
+        margin-bottom: 2em;
         display: inline-block;
     }
     #contact{ 
