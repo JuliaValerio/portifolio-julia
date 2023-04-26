@@ -16,7 +16,7 @@ const About = () => {
           </div>
           <div className='px-4 max-w-[1000px] w-full grid sm:grid-cols-2 gap-8'>
             <div className='sm:ml-2 sm:text-right text-3xl font-bold'>
-              <img class="w-25 h-25 rounded-full mx-auto" src={profile} alt="" width="384" height="512" />
+              <img className="w-25 h-25 rounded-full mx-auto" src={profile} alt="" width="384" height="512" />
             </div>
             <div className='py-1'>
               <p>       
