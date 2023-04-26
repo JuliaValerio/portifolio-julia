@@ -42,6 +42,9 @@
 }
 
 @media only screen and (max-width: 640px) {
+    #home{
+        margin-bottom: 1.5em;
+    }
     #skills {
         margin-top: 1.5em;
         display: inline-block;
