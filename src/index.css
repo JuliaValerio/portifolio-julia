@@ -24,7 +24,7 @@
 
 .content-div:hover {
     background-image: linear-gradient(
-        to right,
+        to top,
         #6427f6c7,
         hsl(288deg 48% 46% / 80%) 
         )!important;
@@ -32,13 +32,6 @@
     background-size: cover;
     background-position: center;
     height: 250px;
-}
-
-.content-div:hover {
-    background-image: linear-gradient(
-    to right,
-    rgba()
-    )
 }
 
 @media only screen and (max-width: 640px) {
